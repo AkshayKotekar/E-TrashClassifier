@@ -7,7 +7,7 @@ import os
 
 IMG_SIZE = 224 
 class_names = ['Washing Machine', 'Television', 'Printer', 'Mouse', 'Mobile', 'Microwave', 'Keyboard', 'Battery'] 
-saved_model_path = r'C:\Users\aksha\OneDrive\Desktop\Exp\efficientnetb0_e-trash_classifiernew1.keras' 
+saved_model_path = "efficientnetb0_e-trash_classifiernew1.keras" 
 
 @st.cache_resource
 def load_model():
